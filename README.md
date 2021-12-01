@@ -1,5 +1,7 @@
 # Android_Studio
 
-Android app Development via Android Studio - Parking Assist - 
-Displaying user generated pinpoints of available parking locations on the map according to user preference.
-UI Creation, Firebase Authentication & Realtime database usage and implementation of google maps API.
+Android app Development via Android Studio - Parking Assist -   
+Displaying user generated pinpoints of available parking locations on map according to user preferences.
+Includes a "likes" system and removing taken pinpoints.
+UI Creation, Firebase Authentication & Real-time database usage.
+Google maps API implementation. 
