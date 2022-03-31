@@ -1,6 +1,6 @@
-# Android_Studio
+# Parking Assist
 
-Android app development with Android Studio - Parking Assist -   
+Android app development with Android Studio platform. 
 Displaying user generated pinpoints of available parking locations on map, according to user preferences.  
 Includes a "likes" system, removing taken pinpoints and navigating to desired location ability.  
 
