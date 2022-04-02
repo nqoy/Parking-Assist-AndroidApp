@@ -3,8 +3,8 @@
 ## Summary:
 Android app development with Android Studio platform.<br />
 Displaying user generated pinpoints of available parking locations on map, according to user preferences.<br />
-Implementing Google maps api & using maps sdk.<br />
-Implementing Firebase authentication and real-time database.<br />
+Implementing Google maps api & maps sdk for android.<br />
+Implementing Firebase authentication & real-time database.<br />
 
 ## The App:
 
