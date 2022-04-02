@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parkingassist.activities.MapActivity">
+
+    <Button
+        android:id="@+id/btnNewPoint"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:text="new parking"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPointShowMap"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="show map"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnNewPoint"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnNewPoint"
+        app:layout_constraintTop_toTopOf="@+id/btnNewPoint"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint=""
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Altitude"
+        app:layout_constraintStart_toStartOf="@+id/Altitude"
+        app:layout_constraintTop_toBottomOf="@+id/AccuracyLabal" />
+
+    <TextView
+        android:id="@+id/Speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint=""
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Accuracy"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Accuracy"
+        app:layout_constraintTop_toBottomOf="@+id/SpeedLabal" />
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint=""
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Speed"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Speed"
+        app:layout_constraintTop_toBottomOf="@+id/AddressLabal" />
+
+    <TextView
+        android:id="@+id/AddressLabal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Address:"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/SpeedLabal"
+        app:layout_constraintStart_toStartOf="@+id/SpeedLabal"
+        app:layout_constraintTop_toBottomOf="@+id/Speed" />
+
+    <TextView
+        android:id="@+id/LatitudeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Latitude:"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/LongitudeLabal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Longitude:"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/LatitudeLabel"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/LatitudeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/Latitude" />
+
+    <TextView
+        android:id="@+id/AltitudeLabal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Altitude:"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/LongitudeLabal"
+        app:layout_constraintStart_toStartOf="@+id/LongitudeLabal"
+        app:layout_constraintTop_toBottomOf="@+id/Longitude" />
+
+    <TextView
+        android:id="@+id/AccuracyLabal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Accuracy:"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/AltitudeLabal"
+        app:layout_constraintStart_toStartOf="@+id/AltitudeLabal"
+        app:layout_constraintTop_toBottomOf="@+id/Altitude" />
+
+    <TextView
+        android:id="@+id/SpeedLabal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Speed:"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/AccuracyLabal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/AccuracyLabal"
+        app:layout_constraintTop_toBottomOf="@+id/Accuracy" />
+
+    <TextView
+        android:id="@+id/Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint=""
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LatitudeLabel" />
+
+    <TextView
+        android:id="@+id/Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint=""
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Latitude"
+        app:layout_constraintStart_toStartOf="@+id/Latitude"
+        app:layout_constraintTop_toBottomOf="@+id/LongitudeLabal" />
+
+    <TextView
+        android:id="@+id/Altitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint=""
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Longitude"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Longitude"
+        app:layout_constraintTop_toBottomOf="@+id/AltitudeLabal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
