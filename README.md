@@ -26,4 +26,18 @@ Implementing Firebase authentication & real-time database.<br />
 ### Google Maps Navigation:
 ![GoogleMapsNavigation](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/GoogleMapsNavigation.png)
 
+## Implementations:
+### Firebase:
+1.Create an account on the Firebase site: https://firebase.google.com/ <br />
+2.Create a project.<br />
+3.Connect android studio to you Firebase account via the tools bar on android studio.<br />
+4.Follow the instuctions for the services needed.<br />
 
+
+### Google Maps:
+
+1.Create an account on the Google Maps Platform site: https://developers.google.com/maps <br />
+2.Create a project.<br />
+3.Choose an api & sdk. <br />
+4.Create Credentials for the api.
+5.In build gradle Note the google services plugin: 'com.google.gms.google-services'.<br />
