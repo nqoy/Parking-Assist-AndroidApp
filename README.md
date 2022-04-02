@@ -1,8 +1,10 @@
 # Parking Assist
 
 ## Summary:
-Android app development with Android Studio platform. 
+Android app development with Android Studio platform.<br />
 Displaying user generated pinpoints of available parking locations on map, according to user preferences.<br />
+Implementing Google maps api & using maps sdk.<br />
+Implementing Firebase authentication and real-time database.<br />
 
 ## The App:
 
@@ -23,3 +25,5 @@ Displaying user generated pinpoints of available parking locations on map, accor
 
 ### Google Maps Navigation:
 ![GoogleMapsNavigation](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/GoogleMapsNavigation.png)
+
+
