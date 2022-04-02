@@ -6,8 +6,10 @@ Displaying user generated pinpoints of available parking locations on map, accor
 
 ## The App:
 
-### Login & Registration:
+### Login:
 ![Login](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Login.png)
+
+### Registration:
 ![Register](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Register.png)
 
 ### Main App Navigation:
