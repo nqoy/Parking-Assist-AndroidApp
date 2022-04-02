@@ -30,7 +30,7 @@ Implementing Firebase authentication & real-time database.<br />
 ### Firebase:
 1.Create an account on the Firebase site: https://firebase.google.com/ <br />
 2.Create a project.<br />
-3.Connect android studio to you Firebase account via the tools bar on android studio.<br />
+3.Connect android studio to the Firebase account via the tools bar on android studio.<br />
 4.Update dependencies.<br />
 5.Follow the instuctions for each service that is needed.<br />
 ![Firebase](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/%E2%80%8F%E2%80%8FFirebase.png)
