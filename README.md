@@ -38,23 +38,23 @@ Implementing ``Google Maps SDK For Android`` - Adds maps to the app using Google
 ````
 ![GoogleMaps](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/GoogleMaps.png)
 
-# The App
-## Login:
+# The App (1-6)
 
+## 1.Login Page:
 ![Login](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Login.png)
 
-## Registration:
+## 2.Registration:
 ![Register](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Register.png)
 
-## Main App Navigation:
+## 3.Main App Navigation:
 ![Navigation](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Navigation.png)
 
-## Map And Markers:
+## 4.Map And Markers:
 ![Map&Markers](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Map%26Markers.png)
 
-## Settings Apply:
+## 5.Settings Apply:
 ![SettingsApply](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/SettingsApply.png)
 
-## Google Maps Navigation:
+## 6.Google Maps Navigation:
 ![GoogleMapsNavigation](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/GoogleMapsNavigation.png)
 
