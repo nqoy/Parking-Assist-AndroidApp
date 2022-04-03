@@ -9,7 +9,7 @@ Implementing Firebase authentication & real-time database.<br />
 # The App:
 
 ## Login:
-<br/>
+
 ![Login](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Login.png)
 
 ## Registration:
