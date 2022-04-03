@@ -6,28 +6,28 @@ Displaying user generated pinpoints of available parking locations on map, accor
 Implementing Google maps api & maps sdk for android.<br />
 Implementing Firebase authentication & real-time database.<br />
 
-## The App:
+# The App:
 
-### Login:
+## Login:
 ![Login](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Login.png)
 
-### Registration:
+## Registration:
 ![Register](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Register.png)
 
-### Main App Navigation:
+## Main App Navigation:
 ![Navigation](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Navigation.png)
 
-### Map And Markers:
+## Map And Markers:
 ![Map&Markers](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Map%26Markers.png)
 
-### Settings Apply:
+## Settings Apply:
 ![SettingsApply](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/SettingsApply.png)
 
-### Google Maps Navigation:
+## Google Maps Navigation:
 ![GoogleMapsNavigation](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/GoogleMapsNavigation.png)
 
-## Implementations:
-### Firebase:
+# Implementations:
+## Firebase:
 1.Create an account on the Firebase site: https://firebase.google.com/ <br />
 2.Create a project.<br />
 3.Connect android studio to the Firebase account via the tools bar on android studio.<br />
@@ -35,7 +35,7 @@ Implementing Firebase authentication & real-time database.<br />
 5.Follow the instuctions for each service that is needed.<br />
 ![Firebase](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/%E2%80%8F%E2%80%8FFirebase.png)
 
-### Google Maps:
+## Google Maps:
 1.Create an account on the Google Maps Platform site: https://developers.google.com/maps <br />
 2.Create a project.<br />
 3.Choose an api & sdk. (geoAPI in this app) <br />
