@@ -1,10 +1,13 @@
 # Parking Assist
-
-## Summary:
 Android app development with ``Android Studio`` platform.<br />
-Displaying user generated pinpoints of available parking locations on map, according to user preferences.<br />
 Implementing ``Firebase Services.``<br />
 Implementing ``Google Maps Api & SDK.``<br />
+
+## Summary:
+To use Parking Assist app, each user must be registered with a verified email.<br />
+Users can generate and see parking locations which are updated in real-time on the map by all users.<br />
+Every user can set his parking location preferences search with 2 options: Distance from current location & if a parking has likes or not.<br />
+Each parking location can be clicked on for additional information, can be liked by the user or removed, and the user can navigate to it.<br />
 
 ## Implementations:
 ### Firebase:
