@@ -1,7 +1,7 @@
 # Parking Assist
 Android app development with ``Android Studio`` platform.<br />
-Implementing ``Firebase Services.``<br />
-Implementing ``Google Maps Api & SDK.``<br />
+Implementing ``Firebase Services``.<br />
+Implementing ``Google Maps Api & SDK``.<br />
 
 ## Summary:
 To use Parking Assist app, each user must be registered with a verified email.<br />
@@ -38,23 +38,23 @@ Implementing ``Google Maps SDK For Android`` - Adds maps to the app using Google
 ````
 ![GoogleMaps](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/GoogleMaps.png)
 
-# The App (1-6)
+# The App 
 
-## 1.Login Page:
+## Login Page:
 ![Login](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Login.png)
 
-## 2.Registration:
+## Registration:
 ![Register](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Register.png)
 
-## 3.Main App Navigation:
+## Main App Navigation:
 ![Navigation](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Navigation.png)
 
-## 4.Map And Markers:
+## Map And Markers:
 ![Map&Markers](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/Map%26Markers.png)
 
-## 5.Settings Apply:
+## Settings:
 ![SettingsApply](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/SettingsApply.png)
 
-## 6.Google Maps Navigation:
+## Google Maps Navigation:
 ![GoogleMapsNavigation](https://github.com/nqoy/Parking-Assist-AndroidApp/blob/main/GoogleMapsNavigation.png)
 
